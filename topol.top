@@ -1,0 +1,15 @@
+#define GO_VIRT
+#include "martini_v3.0.0_go.itp"
+#include "martini_v3.0.0_ions_v1.itp"
+#include "martini_v3.0.0_solvents_v1.itp"
+#include "martini_v3.0.0_phospholipids_v1.itp"
+#include "molecule_0.itp"
+
+[ system ]
+Title of the system in water
+
+[ molecules ]
+molecule_0 8
+W           208678
+NA               2467
+CL               2439
